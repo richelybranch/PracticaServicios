@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="212dp"
         android:layout_height="27dp"
         android:text="CONSUMO DE API'S"
@@ -40,7 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText1"
+        android:id="@+id/edNum1"
         android:layout_width="215dp"
         android:layout_height="40dp"
         android:layout_marginStart="140dp"
@@ -51,7 +52,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/edNum2"
         android:layout_width="215dp"
         android:layout_height="40dp"
         android:layout_marginStart="140dp"
@@ -62,7 +63,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
@@ -72,11 +73,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvResultado"
         android:layout_width="178dp"
         android:layout_height="52dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="503dp" />
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="528dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
